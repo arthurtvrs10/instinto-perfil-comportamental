@@ -1,0 +1,42 @@
+{
+  "I": {
+    "name": "Águia",
+    "slug": "aguia",
+    "motto": "Fazer diferente",
+    "summary": "Diante de um desafio, imagina o que poderia mudar. A curiosidade e a intuição ajudam a enxergar possibilidades futuras.",
+    "strength": "Antecipar mudanças e propor caminhos criativos.",
+    "growth": "Trazer a ideia para o presente e verificar se a novidade resolve o problema.",
+    "motivation": "Liberdade para experimentar, expressar ideias e delegar detalhes.",
+    "values": "Criatividade e liberdade."
+  },
+  "C": {
+    "name": "Gato",
+    "slug": "gato",
+    "motto": "Fazer junto",
+    "summary": "Antes de decidir, procura ouvir o grupo. Percebe como as pessoas se sentem e busca uma solução que todos possam apoiar.",
+    "strength": "Manter a comunicação aberta e fortalecer a cooperação.",
+    "growth": "Conversar sobre divergências, mesmo quando isso gera desconforto.",
+    "motivation": "Trabalhar em equipe, construir consenso e receber reconhecimento do grupo.",
+    "values": "Felicidade e igualdade."
+  },
+  "O": {
+    "name": "Lobo",
+    "slug": "lobo",
+    "motto": "Fazer certo",
+    "summary": "Antes de começar, procura entender as regras, organizar as etapas e definir responsabilidades. Gosta de acompanhar um trabalho até a conclusão.",
+    "strength": "Planejar com atenção aos detalhes e manter a qualidade das entregas.",
+    "growth": "Rever o plano quando o cenário muda e reconhecer quando os detalhes já são suficientes.",
+    "motivation": "Ter critérios claros, conhecer o trabalho e ver o resultado acabado.",
+    "values": "Ordem e controle."
+  },
+  "A": {
+    "name": "Tubarão",
+    "slug": "tubarao",
+    "motto": "Fazer rápido",
+    "summary": "Quando surge um problema, toma a iniciativa. Prefere agir com autonomia e concentrar energia no que pode resolver agora.",
+    "strength": "Destravar tarefas, simplificar processos e mobilizar a ação.",
+    "growth": "Avaliar as consequências de um atalho e ouvir quem será afetado pela decisão.",
+    "motivation": "Ter autonomia para resolver desafios, variar as atividades e acompanhar o próprio desempenho.",
+    "values": "Resultados."
+  }
+}

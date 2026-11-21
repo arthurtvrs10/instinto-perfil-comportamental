@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Pensante",
+    "meaning": "Você imagina possibilidades e planeja o que fazer.",
+    "example": "Antes de um trabalho em grupo, você pensa em temas e esboça um plano.",
+    "pair": "Lobo + Águia"
+  },
+  {
+    "name": "Emoção",
+    "meaning": "Você leva em conta o que sente e como a decisão afeta as pessoas.",
+    "example": "Ao escolher o tema, você pergunta o que anima cada colega e ouve quem ficou em dúvida.",
+    "pair": "Águia + Gato"
+  },
+  {
+    "name": "Atuante",
+    "meaning": "Você coloca uma ideia em prática e ajusta o caminho conforme vê o resultado.",
+    "example": "Com o tema escolhido, você chama o grupo e começa a montar o primeiro slide.",
+    "pair": "Gato + Tubarão"
+  },
+  {
+    "name": "Razão",
+    "meaning": "Você compara fatos e usa critérios para decidir.",
+    "example": "Para escolher entre dois temas, você compara o prazo, o material disponível e o que foi pedido.",
+    "pair": "Lobo + Tubarão"
+  }
+]
