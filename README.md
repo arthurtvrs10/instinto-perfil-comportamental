@@ -10,7 +10,7 @@ O Instinto é uma experiência de autoconhecimento em português. Em 25 pergunta
 2. Cada pergunta traz quatro alternativas. É possível voltar e revisar uma escolha. Ao refazer a avaliação, as alternativas mudam de posição.
 3. O resultado apresenta os percentuais dos quatro animais e uma roda interativa. Ao clicar em uma direção, a pessoa vê o significado, um exemplo e os perfis usados no cálculo.
 
-As respostas ficam na memória do navegador durante a avaliação. Atualizar a página reinicia a sessão. O armazenamento local guarda a ordem das alternativas para variar a apresentação na tentativa seguinte.
+O navegador guarda localmente a última tentativa, incluindo respostas, posição e ordem das alternativas. Ao voltar, a pessoa pode continuar ou começar de novo. O resultado traz uma devolutiva, uma carta opcional de reflexão e uma versão para imprimir ou salvar como PDF. A anotação da carta fica somente na tela atual. O feedback pode ser copiado e compartilhado manualmente.
 
 ## Executar no computador
 

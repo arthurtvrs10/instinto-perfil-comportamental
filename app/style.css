@@ -31,3 +31,27 @@ main:has(.profile){max-width:620px;width:calc(100% - 36px);margin:45px auto}.pro
 }
 @keyframes booking-shine { 0%, 55% { left: -60%; } 100% { left: 130%; } }
 @media (prefers-reduced-motion: reduce) { .intro-primary, .intro-primary::before { animation: none; transition: none; } .intro-primary:hover { transform: none; } }
+
+main button {
+  width: 100%;
+}
+
+main nav {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 4fr);
+  gap: 8px;
+}
+
+main nav > button:only-child {
+  grid-column: 1 / -1;
+}
+.takeaway,.feedback{background:#fffefa;border:1px solid var(--line);border-radius:14px;padding:22px}.takeaway h2,.takeaway h3{font-family:var(--display);color:var(--pine);margin:0}.result-action{background:var(--pine);color:white;border:0;border-radius:8px;padding:12px;margin:5px 0}.result-action.secondary{background:#eaf0e3;color:var(--pine)}.result-action:disabled{opacity:.55}.reflection{border-top:1px solid var(--line);margin-top:14px;padding-top:16px}.print-help,.feedback label,.feedback small{display:block;margin:8px 0}.feedback summary{cursor:pointer;font-weight:650}.feedback textarea,.reflection textarea{display:block;width:100%;padding:10px;font:inherit;border:1px solid #99a69b;border-radius:6px;resize:vertical}.paper-note{display:none}
+@media print{
+ @page{size:A4;margin:12mm}
+ body{background:white;color:black;font-size:10pt}.mast{padding:0 0 5px}.mast img{width:80px}main:has(.profile){width:100%;max-width:none;margin:6px 0}main:has(.profile)>section{display:block}
+ main nav,.result-action,.print-help,.feedback,.axis-list details>div,.profile img,.profile details,.profile .summary,.reflection label,.reflection textarea,.wheel figcaption,.profile .motto,.result-note{display:none!important}
+ .wheel,.takeaway,.profile,.profile .copy,.reflection{padding:4px;border:0;margin:0;background:white}
+ .wheel .diagram{width:205px;margin:auto}.wheel h2,.takeaway h2,.title h2,.title strong{font-size:14pt}
+ .wheel .axis-list{display:grid;grid-template-columns:1fr 1fr;gap:0 20px;margin:0}.wheel .axis-list details{padding:2px}.profile .copy>p{display:none}
+ .paper-note{display:block;white-space:pre-wrap;overflow-wrap:anywhere}.reflection p,.takeaway p{margin:4px 0}main h1{font-size:20pt;margin:7px 0}
+}

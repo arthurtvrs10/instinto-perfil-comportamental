@@ -1,10 +1,11 @@
 import profiles from './profiles.json';
 
+import { Takeaway, Feedback } from './ResultExtras';
 import Wheel from './Wheel';
 
 export default function Results({ totals }) {
   const ranked = Object.entries(profiles).sort(([a], [b]) => totals[b] - totals[a]);
-  return <><Wheel totals={totals}/>{ranked.map(([key, p]) => (
+  return <><Takeaway totals={totals}/><Wheel totals={totals}/>{ranked.map(([key, p]) => (
     <article className={'profile ' + p.slug} key={key}>
       <img src={'/profiles/' + p.slug + '.jpg'} alt={p.name} width="310" height="186" />
       <div className="copy">
@@ -18,5 +19,5 @@ export default function Results({ totals }) {
         </dl></details>
       </div>
     </article>
-  ))}</>;
+  ))}<Feedback/></>;
 }

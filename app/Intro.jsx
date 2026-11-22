@@ -1,7 +1,5 @@
 export function Landing({ onInstructions }) {
   return <main className="landing">
-      <header className="brand">Instinto<span>Avaliação comportamental</span>
-      </header>
       <div className="hero">
       <div className="intro-copy">
       <h1 tabIndex="-1">Como você costuma <em>agir?</em>
